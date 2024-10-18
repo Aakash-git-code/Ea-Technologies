@@ -1,0 +1,232 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+ 
+  background-color: var(--primary-bg-color) !important;
+  
+}
+/* global css */
+:root{
+  --primary-text-color:  #F5F5F5;
+  --secondary-text-color: #1A96F4;
+  --default-text-color: #FFFFFF;
+  --place-text-color: #F29111;
+
+}
+/* global css */
+/* background color global css */
+:root{
+  --primary-bg-color: #000000;
+  --secondary-bg-color: #525252;
+  --place-bg-color:#F3F3F3;
+}
+/* background color global css */
+
+/* section  */
+.logo{
+  background-color: var(--primary-bg-color);
+  padding: 2%;
+}
+.logo_EA{
+  background-color: var(--primary-bg-color);
+  width: 144px;
+  height: 24px; 
+}
+
+.para1{
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--primary-text-color);
+  padding-bottom: 2%;
+  /* margin-inline: 28%; */
+}
+.EA_Technologies{
+  color: var(--secondary-text-color);
+}
+/* section  end */
+
+/* section 1 */
+.Collaboration{
+  font-weight: 900;
+  font-size: 24px;
+  color: var(--default-text-color);
+}
+/* section 1 end */
+
+/* section 2 */
+
+.Mask_card{
+  background: var(--secondary-bg-color) !important;
+}
+.Mask_group{
+  background: var(--secondary-bg-color) !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+      width: 160px;
+      height: 52px;
+}
+.Mask_group p{
+  font-weight: 700;
+  font-size: 8px;
+}
+.Mask_group_img{
+  width: 27px !important;
+  height: 27px;
+}
+.Mask{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.Mask_1{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.Mask_group_para{
+  padding: 5% !important;
+}
+.Group_img{
+  width:  259px;
+  height: 143px;
+}
+.RFP_card{
+  background: var(--secondary-bg-color) !important;
+  width: 108px;
+  height: 71px;
+  padding: 2%;
+}
+.RFP_card p{
+  font-weight: 700;
+  font-size: 8px;
+  padding: 0 !important;
+}
+.RFP_card_body{
+  padding: 0 !important;
+}
+.cycle_chart{
+  padding: 4%;
+  justify-content: center;
+  align-items: center ;
+}
+/* section 2 end */
+
+/* section 3 */
+.Our_History h5{
+  padding: 4%;
+  font-weight: 900;
+  font-size: 24px;
+  color: var(--default-text-color);
+}
+.hourglass-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 100vh; */
+  position: relative;
+  text-align: center;
+}
+.hourglass {
+  position: relative;
+  width: 300px;
+  max-width: 100%;
+}
+.hourglass img {
+  width: 185px;
+  /* height: auto; */
+}
+.top-text, .bottom-text {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 37%;
+  text-align: center;
+  color: white;
+}
+.top-text {
+  top: 9%;
+}
+.bottom-text {
+  bottom: 15%;
+}
+.year {
+  color: var(--default-text-color);
+  font-size: 11px;
+  font-weight: 900;
+}
+.description {
+  color: var(--default-text-color);
+  font-weight: 700;
+  font-size: 10px;
+  margin-top: 10px;
+}
+.hour_cloud_img{
+  position: relative;
+  top: 27px;
+}
+@media (max-width: 768px) {
+  .year {
+    font-size: 1.2rem;
+  }
+  .description {
+    font-size: 0.9rem;
+  }
+}
+/* section 3 end */
+
+/* section 4 */
+.our_process_img{
+  /* width: 52%; */
+}
+.Development{
+  padding-top: 9%;
+}
+.Development_card{
+  background: transparent !important;
+}
+.Development_card h5{
+  font-weight: 900;
+  font-size: 14px;
+  color: var(--place-text-color);
+}
+.Development_card p{
+  font-weight: 700;
+  font-size: 10px;
+  color: var(--default-text-color);
+}
+.Fixed_cost_card{
+  background: transparent !important;
+}
+.Fixed_cost_card h5{
+  font-weight: 900;
+  font-size: 14px;
+  color: var(--secondary-text-color);
+}
+.Fixed_cost_card p{
+  font-weight: 700;
+  font-size: 10px;
+  color: var(--default-text-color);
+}
+.Fixed_cost{
+  padding-top: 3%;
+}
+/* section 4 end */
+/* section 5  */
+/* section 5 end */
+/* section 6  */
+.Our_Work h5{
+  font-weight: 900;
+  font-size: 24px;
+  color: var(--default-text-color);
+  padding-top: 4%;
+}
+.CMS_Solutions h6{
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--default-text-color);
+  padding-top: 1%;
+}
+/* section 6 end */
