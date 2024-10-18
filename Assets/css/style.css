@@ -20,6 +20,7 @@ body{
 :root{
   --primary-bg-color: #000000;
   --secondary-bg-color: #525252;
+  --default-bg-color: #111111;
   --place-bg-color:#F3F3F3;
 }
 /* background color global css */
@@ -34,10 +35,16 @@ body{
   width: 144px;
   height: 24px; 
 }
-
+.sec1_para{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .para1{
   font-weight: 500;
   font-size: 14px;
+  width: 38%;
   color: var(--primary-text-color);
   padding-bottom: 2%;
   /* margin-inline: 28%; */
@@ -52,6 +59,12 @@ body{
   font-weight: 900;
   font-size: 24px;
   color: var(--default-text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Collaboration p{
+  width: 48%;
 }
 /* section 1 end */
 
@@ -108,7 +121,7 @@ body{
   padding: 0 !important;
 }
 .cycle_chart{
-  padding: 4%;
+  padding: 3%;
   justify-content: center;
   align-items: center ;
 }
@@ -215,6 +228,86 @@ body{
 }
 /* section 4 end */
 /* section 5  */
+.container {
+  margin-top: 50px;
+}
+
+.step-item {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-bottom: 40px;
+}
+
+.rhombus {
+  width: 70px;
+  height: 50px;
+  transform: rotate(45deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  margin-right: 15px;
+  position: relative;
+}
+
+.rhombus span {
+  transform: rotate(-45deg);
+  font-size: 16px;
+}
+
+.bg-orange {
+  background-color: #f39c12;
+}
+
+.bg-blue {
+  background-color: #2980b9;
+}
+
+
+.step-line {
+  flex-grow: 1;
+  height: 3px;
+  margin-right: 15px;
+  position: relative;
+  width: 100px;
+}
+
+.bg-orange-line {
+  background-color: #f39c12;
+}
+
+.bg-blue-line {
+  background-color: #2980b9;
+}
+.step-content {
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.border-orange {
+  border: 2px solid #f39c12;
+}
+
+.border-blue {
+  border: 2px solid #2980b9;
+}
+
+.step-content h5 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.step-content h5 i {
+  margin-right: 10px;
+}
+
 /* section 5 end */
 /* section 6  */
 .Our_Work h5{
@@ -227,6 +320,77 @@ body{
   font-weight: 500;
   font-size: 16px;
   color: var(--default-text-color);
-  padding-top: 1%;
+  padding: 2%;
+}
+.Golden_Agri{
+  width: 113px;
+}
+.Golden_Agri_card{
+  background: var(--default-bg-color) !important;
+  width: 34%;
+    align-items: center;
+    padding-top: 3%;
+}
+.Golden_Agri_card h5{
+  font-weight: 700;
+  font-size: 10px !important;
+  color: var(--default-text-color);
+}
+.Golden_Agri_card p{
+  font-weight: 400;
+  font-size: 8px !important;
+  color: var(--primary-text-color);
+}
+.our_work_card{
+  display: flex;
+  justify-content: center;
 }
 /* section 6 end */
+/* section 7 */
+.Next_steps h5{
+  font-weight: 900;
+  padding: 1%;
+  font-size: 24px;
+  color: var(--default-text-color);
+}
+.sec7{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-bottom: 4%; */
+}
+.sec_7{
+  width: 48%;
+  border: none !important;
+ 
+}
+.sec7_card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--primary-bg-color);
+}
+.sec7_card_body p{
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--primary-text-color);
+}
+.sec7_card_btn{
+  width: 249px;
+  height: 33px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  background: #E48200 !important;
+}
+#section_7{
+  padding-top: 4%;
+}
+/* section 7 end */
+
+.footer_para h5{
+  font-weight: 500;
+  font-size: 12px;
+  color: #BCBCBC;
+  padding-bottom: 2%;
+}
